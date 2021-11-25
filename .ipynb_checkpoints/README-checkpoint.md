@@ -1,4 +1,0 @@
-# LSTM_stock_predictor
-Building and evaluating deep learning models using both the FNG values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
-
-In this study we are you using deep learning of lstm to predictict prices through 'closing prices' and 'fear and greed index'. throught this we try to see how accurate the model can be with these two datasets. With the closing prices, producing a batch size of 90 the model was able to predicted a pretty accurate model vs the actual data. However, the lstm model was not as accurate with the fear and greed index, its seems that regardless of the batch size the model wasnt able to create as accurate of a model. Making closing prices a much more confident dataset when calculation price volatility of cryptocurrency. 
